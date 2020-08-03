@@ -24,20 +24,6 @@ namespace Geldautomat
            
         }
 
-        /*private void btn_ingresar_Click(object sender, EventArgs e)
-        {
-            
-
-        }*/
-        
-       /* private void btn_registrarse_Click(object sender, EventArgs e)
-        {
-            
-           
-            
-           
-        }*/
-
         private void btn_registrarse_Click_1(object sender, EventArgs e)
         {
             if (pnl_input.Controls.Count > 0)
@@ -58,7 +44,7 @@ namespace Geldautomat
             {
                 pnl_input.Controls.Clear();
             }
-            Ingresar ingresar = new Ingresar();
+            IngresarII ingresar = new IngresarII();
             ingresar.TopLevel = false;
             pnl_input.Controls.Add(ingresar);
             ingresar.Show();
