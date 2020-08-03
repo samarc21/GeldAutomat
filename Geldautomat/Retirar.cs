@@ -80,17 +80,26 @@ namespace Geldautomat
         private void btn_otro_Click(object sender, EventArgs e)
         {
             txt_otro.Visible = true;
-            cantidad = int.Parse(txt_otro.Text);
+
         }
 
         private void btn_retirar_Click(object sender, EventArgs e)
         {
             int a = int.Parse(txt_otro.Text);
-            string error = "Cantidad no valida intentelo de nuevo";
             if (a < 100)
             {
-                MessageBox.Show(error);
+                MessageBox.Show("Cantidad no valida intentelo de nuevo");
             }
+            if (a > 100)
+            {
+                cantidad = a;
+                MessageBox.Show("Retiro realizado con exito");
+            }
+
+            txt_otro.Text = string.Empty;
+            txt_otro.Visible = false;
+
+
 
 
 
