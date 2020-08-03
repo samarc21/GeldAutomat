@@ -9,18 +9,18 @@ namespace Geldautomat
     class Usuario
     {
         string nombre;
-        string ping;
+        string pin;
         string montoi;
 
         public Usuario()
         {
             Nombre = string.Empty;
-            Ping = string.Empty;
+            Pin = string.Empty;
             Montoi = string.Empty;
         }
 
         public string Nombre { get => nombre; set => nombre = value; }
-        public string Ping { get => ping; set => ping = value; }
+        public string Pin { get => pin; set => pin = value; }
         public string Montoi { get => montoi; set => montoi = value; }
     }
 }

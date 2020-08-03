@@ -15,12 +15,13 @@ namespace Geldautomat
         public Dashboard()
         {
             InitializeComponent();
+           
         }
 
         private void btn_x_Click(object sender, EventArgs e)
         {
             Application.Exit();
-
+           
         }
 
         private void btn_ingresar_Click(object sender, EventArgs e)
@@ -35,9 +36,10 @@ namespace Geldautomat
             ingresar.Show();
 
         }
-
+        
         private void btn_registrarse_Click(object sender, EventArgs e)
         {
+            
             if (pnl_input.Controls.Count > 0)
             {
                 pnl_input.Controls.Clear();
@@ -46,6 +48,9 @@ namespace Geldautomat
             registro.TopLevel = false;
             pnl_input.Controls.Add(registro);
             registro.Show();
+            
+            
+           
         }
     }
 }
