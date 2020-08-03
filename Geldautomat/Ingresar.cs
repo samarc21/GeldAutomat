@@ -17,7 +17,20 @@ namespace Geldautomat
             InitializeComponent();
         }
 
-        private void btn_ingresar_Click(object sender, EventArgs e)
+        /*private void btn_ingresar_Click(object sender, EventArgs e)
+        {
+         
+        }*/
+
+        /*private void btn_consultar_Click(object sender, EventArgs e)
+        {
+        }*/
+
+       /* private void btn_retirar_Click(object sender, EventArgs e)
+        {
+        }*/
+
+        private void btn_ingresar_Click_1(object sender, EventArgs e)
         {
             if (pnl_input_ingresar.Controls.Count > 0)
             {
@@ -27,10 +40,12 @@ namespace Geldautomat
             ingresarii.TopLevel = false;
             pnl_input_ingresar.Controls.Add(ingresarii);
             ingresarii.Show();
+
         }
 
-        private void btn_consultar_Click(object sender, EventArgs e)
+        private void txt_consultar_Click(object sender, EventArgs e)
         {
+
             if (pnl_input_ingresar.Controls.Count > 0)
             {
                 pnl_input_ingresar.Controls.Clear();
@@ -41,7 +56,7 @@ namespace Geldautomat
             consulta.Show();
         }
 
-        private void btn_retirar_Click(object sender, EventArgs e)
+        private void txt_retirar_Click(object sender, EventArgs e)
         {
             if (pnl_input_ingresar.Controls.Count > 0)
             {
@@ -51,6 +66,7 @@ namespace Geldautomat
             retiro.TopLevel = false;
             pnl_input_ingresar.Controls.Add(retiro);
             retiro.Show();
+
         }
     }
 }

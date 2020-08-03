@@ -44,7 +44,7 @@
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(120, 120);
+            this.metroLabel1.Location = new System.Drawing.Point(53, 67);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(61, 20);
             this.metroLabel1.TabIndex = 19;
@@ -53,7 +53,7 @@
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(120, 176);
+            this.metroLabel2.Location = new System.Drawing.Point(53, 123);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(49, 20);
             this.metroLabel2.TabIndex = 20;
@@ -62,7 +62,7 @@
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(120, 234);
+            this.metroLabel3.Location = new System.Drawing.Point(53, 181);
             this.metroLabel3.Name = "metroLabel3";
             this.metroLabel3.Size = new System.Drawing.Size(28, 20);
             this.metroLabel3.TabIndex = 21;
@@ -70,21 +70,21 @@
             // 
             // txt_nombre
             // 
-            this.txt_nombre.Location = new System.Drawing.Point(241, 120);
+            this.txt_nombre.Location = new System.Drawing.Point(174, 67);
             this.txt_nombre.Name = "txt_nombre";
             this.txt_nombre.Size = new System.Drawing.Size(110, 23);
             this.txt_nombre.TabIndex = 22;
             // 
             // txt_pin
             // 
-            this.txt_pin.Location = new System.Drawing.Point(241, 216);
+            this.txt_pin.Location = new System.Drawing.Point(174, 163);
             this.txt_pin.Name = "txt_pin";
             this.txt_pin.Size = new System.Drawing.Size(110, 23);
             this.txt_pin.TabIndex = 23;
             // 
             // txt_montoinicial
             // 
-            this.txt_montoinicial.Location = new System.Drawing.Point(241, 173);
+            this.txt_montoinicial.Location = new System.Drawing.Point(174, 120);
             this.txt_montoinicial.Name = "txt_montoinicial";
             this.txt_montoinicial.Size = new System.Drawing.Size(110, 23);
             this.txt_montoinicial.TabIndex = 24;
@@ -92,7 +92,7 @@
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(109, 278);
+            this.metroLabel4.Location = new System.Drawing.Point(42, 225);
             this.metroLabel4.Name = "metroLabel4";
             this.metroLabel4.Size = new System.Drawing.Size(93, 20);
             this.metroLabel4.TabIndex = 25;
@@ -100,14 +100,14 @@
             // 
             // txt_confPin
             // 
-            this.txt_confPin.Location = new System.Drawing.Point(241, 275);
+            this.txt_confPin.Location = new System.Drawing.Point(174, 222);
             this.txt_confPin.Name = "txt_confPin";
             this.txt_confPin.Size = new System.Drawing.Size(110, 23);
             this.txt_confPin.TabIndex = 26;
             // 
             // btn_comReg
             // 
-            this.btn_comReg.Location = new System.Drawing.Point(197, 353);
+            this.btn_comReg.Location = new System.Drawing.Point(130, 300);
             this.btn_comReg.Name = "btn_comReg";
             this.btn_comReg.Size = new System.Drawing.Size(169, 23);
             this.btn_comReg.TabIndex = 27;
@@ -117,7 +117,7 @@
             // rbtn_dol
             // 
             this.rbtn_dol.AutoSize = true;
-            this.rbtn_dol.Location = new System.Drawing.Point(370, 176);
+            this.rbtn_dol.Location = new System.Drawing.Point(303, 123);
             this.rbtn_dol.Name = "rbtn_dol";
             this.rbtn_dol.Size = new System.Drawing.Size(31, 17);
             this.rbtn_dol.TabIndex = 28;
@@ -128,7 +128,7 @@
             // rbtn_cordoba
             // 
             this.rbtn_cordoba.AutoSize = true;
-            this.rbtn_cordoba.Location = new System.Drawing.Point(418, 176);
+            this.rbtn_cordoba.Location = new System.Drawing.Point(351, 123);
             this.rbtn_cordoba.Name = "rbtn_cordoba";
             this.rbtn_cordoba.Size = new System.Drawing.Size(39, 17);
             this.rbtn_cordoba.TabIndex = 29;

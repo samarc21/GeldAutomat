@@ -38,7 +38,7 @@
             // Usuario
             // 
             this.Usuario.AutoSize = true;
-            this.Usuario.Location = new System.Drawing.Point(46, 63);
+            this.Usuario.Location = new System.Drawing.Point(119, 114);
             this.Usuario.Name = "Usuario";
             this.Usuario.Size = new System.Drawing.Size(56, 20);
             this.Usuario.TabIndex = 0;
@@ -47,7 +47,7 @@
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(60, 99);
+            this.metroLabel2.Location = new System.Drawing.Point(133, 150);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(28, 20);
             this.metroLabel2.TabIndex = 1;
@@ -55,21 +55,21 @@
             // 
             // txt_user
             // 
-            this.txt_user.Location = new System.Drawing.Point(125, 63);
+            this.txt_user.Location = new System.Drawing.Point(198, 114);
             this.txt_user.Name = "txt_user";
             this.txt_user.Size = new System.Drawing.Size(97, 23);
             this.txt_user.TabIndex = 2;
             // 
             // txt_loginpin
             // 
-            this.txt_loginpin.Location = new System.Drawing.Point(125, 99);
+            this.txt_loginpin.Location = new System.Drawing.Point(198, 150);
             this.txt_loginpin.Name = "txt_loginpin";
             this.txt_loginpin.Size = new System.Drawing.Size(97, 23);
             this.txt_loginpin.TabIndex = 3;
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(46, 169);
+            this.metroButton1.Location = new System.Drawing.Point(119, 220);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(186, 23);
             this.metroButton1.TabIndex = 4;

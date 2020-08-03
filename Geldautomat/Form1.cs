@@ -24,7 +24,35 @@ namespace Geldautomat
            
         }
 
-        private void btn_ingresar_Click(object sender, EventArgs e)
+        /*private void btn_ingresar_Click(object sender, EventArgs e)
+        {
+            
+
+        }*/
+        
+       /* private void btn_registrarse_Click(object sender, EventArgs e)
+        {
+            
+           
+            
+           
+        }*/
+
+        private void btn_registrarse_Click_1(object sender, EventArgs e)
+        {
+            if (pnl_input.Controls.Count > 0)
+            {
+                pnl_input.Controls.Clear();
+            }
+            Registrar registro = new Registrar();
+            registro.TopLevel = false;
+            pnl_input.Controls.Add(registro);
+            registro.Show();
+
+
+        }
+
+        private void btn_ingresar_Click_1(object sender, EventArgs e)
         {
             if (pnl_input.Controls.Count > 0)
             {
@@ -34,23 +62,6 @@ namespace Geldautomat
             ingresar.TopLevel = false;
             pnl_input.Controls.Add(ingresar);
             ingresar.Show();
-
-        }
-        
-        private void btn_registrarse_Click(object sender, EventArgs e)
-        {
-            
-            if (pnl_input.Controls.Count > 0)
-            {
-                pnl_input.Controls.Clear();
-            }
-            Registrar registro = new Registrar();
-            registro.TopLevel = false;
-            pnl_input.Controls.Add(registro);
-            registro.Show();
-            
-            
-           
         }
     }
 }
