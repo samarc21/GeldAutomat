@@ -12,6 +12,7 @@ namespace Geldautomat
 {
     public partial class Retirar : Form
     {
+        int cantidad = 0;
         public Retirar()
         {
             InitializeComponent();
@@ -40,42 +41,72 @@ namespace Geldautomat
 
         private void btn_100_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Hola");
+            cantidad = 100;
         }
 
         private void btn_200_Click(object sender, EventArgs e)
         {
+            cantidad = 200;
 
         }
 
         private void btn_400_Click(object sender, EventArgs e)
         {
-
+            cantidad = 400;
         }
 
         private void btn_500_Click(object sender, EventArgs e)
         {
-
+            cantidad = 500;
         }
 
         private void btn_600_Click(object sender, EventArgs e)
         {
+            cantidad = 600;
 
         }
 
         private void btn_800_Click(object sender, EventArgs e)
         {
-
+            cantidad = 800;
         }
 
         private void btn_1000_Click(object sender, EventArgs e)
         {
-
+            cantidad = 1000;
         }
 
         private void btn_otro_Click(object sender, EventArgs e)
         {
+            txt_otro.Visible = true;
+            cantidad = int.Parse(txt_otro.Text);
+        }
+
+        private void btn_retirar_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txt_otro.Text);
+            string error = "Cantidad no valida intentelo de nuevo";
+            if (a < 100)
+            {
+                MessageBox.Show(error);
+            }
+
+
+
+            comparar();
+
+
+
+
 
         }
+
+        public void comparar()
+        {
+
+        }
+
+
     }
 }

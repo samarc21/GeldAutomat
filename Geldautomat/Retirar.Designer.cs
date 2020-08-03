@@ -38,6 +38,8 @@
             this.btn_200 = new System.Windows.Forms.Button();
             this.btn_otro = new System.Windows.Forms.Button();
             this.btn_1000 = new System.Windows.Forms.Button();
+            this.txt_otro = new System.Windows.Forms.TextBox();
+            this.btn_retirar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Cordobas
@@ -128,11 +130,11 @@
             // 
             // btn_otro
             // 
-            this.btn_otro.Location = new System.Drawing.Point(398, 197);
+            this.btn_otro.Location = new System.Drawing.Point(165, 283);
             this.btn_otro.Name = "btn_otro";
-            this.btn_otro.Size = new System.Drawing.Size(115, 23);
+            this.btn_otro.Size = new System.Drawing.Size(75, 23);
             this.btn_otro.TabIndex = 12;
-            this.btn_otro.Text = "Otra cantidad";
+            this.btn_otro.Text = "Otro:";
             this.btn_otro.UseVisualStyleBackColor = true;
             this.btn_otro.Visible = false;
             this.btn_otro.Click += new System.EventHandler(this.btn_otro_Click);
@@ -148,11 +150,31 @@
             this.btn_1000.Visible = false;
             this.btn_1000.Click += new System.EventHandler(this.btn_1000_Click);
             // 
+            // txt_otro
+            // 
+            this.txt_otro.Location = new System.Drawing.Point(281, 286);
+            this.txt_otro.Name = "txt_otro";
+            this.txt_otro.Size = new System.Drawing.Size(75, 20);
+            this.txt_otro.TabIndex = 14;
+            this.txt_otro.Visible = false;
+            // 
+            // btn_retirar
+            // 
+            this.btn_retirar.Location = new System.Drawing.Point(398, 284);
+            this.btn_retirar.Name = "btn_retirar";
+            this.btn_retirar.Size = new System.Drawing.Size(75, 23);
+            this.btn_retirar.TabIndex = 15;
+            this.btn_retirar.Text = "Retirar";
+            this.btn_retirar.UseVisualStyleBackColor = true;
+            this.btn_retirar.Click += new System.EventHandler(this.btn_retirar_Click);
+            // 
             // Retirar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_retirar);
+            this.Controls.Add(this.txt_otro);
             this.Controls.Add(this.btn_1000);
             this.Controls.Add(this.btn_otro);
             this.Controls.Add(this.btn_200);
@@ -167,6 +189,7 @@
             this.Name = "Retirar";
             this.Text = "Retirar";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -182,5 +205,7 @@
         private System.Windows.Forms.Button btn_200;
         private System.Windows.Forms.Button btn_otro;
         private System.Windows.Forms.Button btn_1000;
+        private System.Windows.Forms.TextBox txt_otro;
+        private System.Windows.Forms.Button btn_retirar;
     }
 }
