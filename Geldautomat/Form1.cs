@@ -10,11 +10,42 @@ using System.Windows.Forms;
 
 namespace Geldautomat
 {
-    public partial class Form1 : Form
+    public partial class Dashboard : Form
     {
-        public Form1()
+        public Dashboard()
         {
             InitializeComponent();
+        }
+
+        private void btn_x_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void btn_ingresar_Click(object sender, EventArgs e)
+        {
+            if (pnl_input.Controls.Count > 0)
+            {
+                pnl_input.Controls.Clear();
+            }
+            Ingresar ingresar = new Ingresar();
+            ingresar.TopLevel = false;
+            pnl_input.Controls.Add(ingresar);
+            ingresar.Show();
+
+        }
+
+        private void btn_registrarse_Click(object sender, EventArgs e)
+        {
+            if (pnl_input.Controls.Count > 0)
+            {
+                pnl_input.Controls.Clear();
+            }
+            Registrar registro = new Registrar();
+            registro.TopLevel = false;
+            pnl_input.Controls.Add(registro);
+            registro.Show();
         }
     }
 }
