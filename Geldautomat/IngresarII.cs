@@ -16,5 +16,10 @@ namespace Geldautomat
         {
             InitializeComponent();
         }
+
+        private void IngresarII_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

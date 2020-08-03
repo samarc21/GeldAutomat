@@ -28,6 +28,7 @@ namespace Geldautomat
                     a.Nombre = txt_nombre.Text;
                     a.Montoi = txt_montoinicial.Text;
                     a.Pin = txt_pin.Text;
+                Control_Usuarios.lista_Usuario.Add(a);
                     MessageBox.Show("Se ha registrado");
                 }
                 
