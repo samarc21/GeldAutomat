@@ -28,151 +28,177 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.txt_nombre = new MetroFramework.Controls.MetroTextBox();
-            this.txt_pin = new MetroFramework.Controls.MetroTextBox();
-            this.txt_montoinicial = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.txt_confPin = new MetroFramework.Controls.MetroTextBox();
-            this.btn_comReg = new MetroFramework.Controls.MetroButton();
-            this.rbtn_dol = new MetroFramework.Controls.MetroRadioButton();
+            this.pnl_registro = new System.Windows.Forms.Panel();
             this.rbtn_cordoba = new MetroFramework.Controls.MetroRadioButton();
+            this.rbtn_dol = new MetroFramework.Controls.MetroRadioButton();
+            this.btn_comReg = new MetroFramework.Controls.MetroButton();
+            this.txt_confPin = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.txt_montoinicial = new MetroFramework.Controls.MetroTextBox();
+            this.txt_pin = new MetroFramework.Controls.MetroTextBox();
+            this.txt_nombre = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.pnl_registro.SuspendLayout();
             this.SuspendLayout();
             // 
-            // metroLabel1
+            // pnl_registro
             // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(63, 67);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(61, 20);
-            this.metroLabel1.TabIndex = 19;
-            this.metroLabel1.Text = "Nombre";
-            // 
-            // metroLabel2
-            // 
-            this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(63, 123);
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(49, 20);
-            this.metroLabel2.TabIndex = 20;
-            this.metroLabel2.Text = "Monto";
-            // 
-            // metroLabel3
-            // 
-            this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(63, 181);
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(28, 20);
-            this.metroLabel3.TabIndex = 21;
-            this.metroLabel3.Text = "Pin";
-            // 
-            // txt_nombre
-            // 
-            this.txt_nombre.Location = new System.Drawing.Point(184, 67);
-            this.txt_nombre.Name = "txt_nombre";
-            this.txt_nombre.Size = new System.Drawing.Size(110, 23);
-            this.txt_nombre.TabIndex = 22;
-            // 
-            // txt_pin
-            // 
-            this.txt_pin.Location = new System.Drawing.Point(184, 163);
-            this.txt_pin.Name = "txt_pin";
-            this.txt_pin.Size = new System.Drawing.Size(110, 23);
-            this.txt_pin.TabIndex = 23;
-            // 
-            // txt_montoinicial
-            // 
-            this.txt_montoinicial.Location = new System.Drawing.Point(184, 120);
-            this.txt_montoinicial.Name = "txt_montoinicial";
-            this.txt_montoinicial.Size = new System.Drawing.Size(110, 23);
-            this.txt_montoinicial.TabIndex = 24;
-            // 
-            // metroLabel4
-            // 
-            this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(52, 225);
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(93, 20);
-            this.metroLabel4.TabIndex = 25;
-            this.metroLabel4.Text = "Confirmar Pin";
-            // 
-            // txt_confPin
-            // 
-            this.txt_confPin.Location = new System.Drawing.Point(184, 222);
-            this.txt_confPin.Name = "txt_confPin";
-            this.txt_confPin.Size = new System.Drawing.Size(110, 23);
-            this.txt_confPin.TabIndex = 26;
-            // 
-            // btn_comReg
-            // 
-            this.btn_comReg.Location = new System.Drawing.Point(140, 300);
-            this.btn_comReg.Name = "btn_comReg";
-            this.btn_comReg.Size = new System.Drawing.Size(169, 23);
-            this.btn_comReg.TabIndex = 27;
-            this.btn_comReg.Text = "Completar Registro";
-            this.btn_comReg.Click += new System.EventHandler(this.btn_comReg_Click);
-            // 
-            // rbtn_dol
-            // 
-            this.rbtn_dol.AutoSize = true;
-            this.rbtn_dol.Location = new System.Drawing.Point(313, 123);
-            this.rbtn_dol.Name = "rbtn_dol";
-            this.rbtn_dol.Size = new System.Drawing.Size(31, 17);
-            this.rbtn_dol.TabIndex = 28;
-            this.rbtn_dol.TabStop = true;
-            this.rbtn_dol.Text = "$";
-            this.rbtn_dol.UseVisualStyleBackColor = true;
+            this.pnl_registro.Controls.Add(this.rbtn_cordoba);
+            this.pnl_registro.Controls.Add(this.rbtn_dol);
+            this.pnl_registro.Controls.Add(this.btn_comReg);
+            this.pnl_registro.Controls.Add(this.txt_confPin);
+            this.pnl_registro.Controls.Add(this.metroLabel4);
+            this.pnl_registro.Controls.Add(this.txt_montoinicial);
+            this.pnl_registro.Controls.Add(this.txt_pin);
+            this.pnl_registro.Controls.Add(this.txt_nombre);
+            this.pnl_registro.Controls.Add(this.metroLabel3);
+            this.pnl_registro.Controls.Add(this.metroLabel2);
+            this.pnl_registro.Controls.Add(this.metroLabel1);
+            this.pnl_registro.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_registro.Location = new System.Drawing.Point(0, 0);
+            this.pnl_registro.Name = "pnl_registro";
+            this.pnl_registro.Size = new System.Drawing.Size(800, 450);
+            this.pnl_registro.TabIndex = 0;
             // 
             // rbtn_cordoba
             // 
             this.rbtn_cordoba.AutoSize = true;
-            this.rbtn_cordoba.Location = new System.Drawing.Point(361, 123);
+            this.rbtn_cordoba.Location = new System.Drawing.Point(317, 122);
+            this.rbtn_cordoba.Margin = new System.Windows.Forms.Padding(2);
             this.rbtn_cordoba.Name = "rbtn_cordoba";
-            this.rbtn_cordoba.Size = new System.Drawing.Size(39, 17);
-            this.rbtn_cordoba.TabIndex = 29;
+            this.rbtn_cordoba.Size = new System.Drawing.Size(37, 15);
+            this.rbtn_cordoba.TabIndex = 40;
             this.rbtn_cordoba.TabStop = true;
             this.rbtn_cordoba.Text = "C$";
             this.rbtn_cordoba.UseVisualStyleBackColor = true;
             // 
+            // rbtn_dol
+            // 
+            this.rbtn_dol.AutoSize = true;
+            this.rbtn_dol.Location = new System.Drawing.Point(281, 122);
+            this.rbtn_dol.Margin = new System.Windows.Forms.Padding(2);
+            this.rbtn_dol.Name = "rbtn_dol";
+            this.rbtn_dol.Size = new System.Drawing.Size(29, 15);
+            this.rbtn_dol.TabIndex = 39;
+            this.rbtn_dol.TabStop = true;
+            this.rbtn_dol.Text = "$";
+            this.rbtn_dol.UseVisualStyleBackColor = true;
+            // 
+            // btn_comReg
+            // 
+            this.btn_comReg.Location = new System.Drawing.Point(151, 266);
+            this.btn_comReg.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_comReg.Name = "btn_comReg";
+            this.btn_comReg.Size = new System.Drawing.Size(127, 19);
+            this.btn_comReg.TabIndex = 38;
+            this.btn_comReg.Text = "Completar Registro";
+            this.btn_comReg.Click += new System.EventHandler(this.btn_comReg_Click_1);
+            // 
+            // txt_confPin
+            // 
+            this.txt_confPin.Location = new System.Drawing.Point(184, 202);
+            this.txt_confPin.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_confPin.Name = "txt_confPin";
+            this.txt_confPin.Size = new System.Drawing.Size(82, 19);
+            this.txt_confPin.TabIndex = 37;
+            // 
+            // metroLabel4
+            // 
+            this.metroLabel4.AutoSize = true;
+            this.metroLabel4.Location = new System.Drawing.Point(85, 205);
+            this.metroLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.Size = new System.Drawing.Size(91, 19);
+            this.metroLabel4.TabIndex = 36;
+            this.metroLabel4.Text = "Confirmar Pin";
+            // 
+            // txt_montoinicial
+            // 
+            this.txt_montoinicial.Location = new System.Drawing.Point(184, 120);
+            this.txt_montoinicial.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_montoinicial.Name = "txt_montoinicial";
+            this.txt_montoinicial.Size = new System.Drawing.Size(82, 19);
+            this.txt_montoinicial.TabIndex = 35;
+            this.txt_montoinicial.Click += new System.EventHandler(this.txt_montoinicial_Click);
+            // 
+            // txt_pin
+            // 
+            this.txt_pin.Location = new System.Drawing.Point(184, 154);
+            this.txt_pin.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_pin.Name = "txt_pin";
+            this.txt_pin.Size = new System.Drawing.Size(82, 19);
+            this.txt_pin.TabIndex = 34;
+            // 
+            // txt_nombre
+            // 
+            this.txt_nombre.Location = new System.Drawing.Point(184, 76);
+            this.txt_nombre.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_nombre.Name = "txt_nombre";
+            this.txt_nombre.Size = new System.Drawing.Size(82, 19);
+            this.txt_nombre.TabIndex = 33;
+            // 
+            // metroLabel3
+            // 
+            this.metroLabel3.AutoSize = true;
+            this.metroLabel3.Location = new System.Drawing.Point(93, 169);
+            this.metroLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.Size = new System.Drawing.Size(27, 19);
+            this.metroLabel3.TabIndex = 32;
+            this.metroLabel3.Text = "Pin";
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(93, 122);
+            this.metroLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(48, 19);
+            this.metroLabel2.TabIndex = 31;
+            this.metroLabel2.Text = "Monto";
+            this.metroLabel2.Click += new System.EventHandler(this.metroLabel2_Click);
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.Location = new System.Drawing.Point(93, 76);
+            this.metroLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(59, 19);
+            this.metroLabel1.TabIndex = 30;
+            this.metroLabel1.Text = "Nombre";
+            // 
             // Registrar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.rbtn_cordoba);
-            this.Controls.Add(this.rbtn_dol);
-            this.Controls.Add(this.btn_comReg);
-            this.Controls.Add(this.txt_confPin);
-            this.Controls.Add(this.metroLabel4);
-            this.Controls.Add(this.txt_montoinicial);
-            this.Controls.Add(this.txt_pin);
-            this.Controls.Add(this.txt_nombre);
-            this.Controls.Add(this.metroLabel3);
-            this.Controls.Add(this.metroLabel2);
-            this.Controls.Add(this.metroLabel1);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pnl_registro);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Registrar";
             this.Text = "Registrar";
+            this.Load += new System.EventHandler(this.Registrar_Load);
+            this.pnl_registro.ResumeLayout(false);
+            this.pnl_registro.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private MetroFramework.Controls.MetroLabel metroLabel1;
-        private MetroFramework.Controls.MetroLabel metroLabel2;
-        private MetroFramework.Controls.MetroLabel metroLabel3;
-        private MetroFramework.Controls.MetroTextBox txt_nombre;
-        private MetroFramework.Controls.MetroTextBox txt_pin;
-        private MetroFramework.Controls.MetroTextBox txt_montoinicial;
-        private MetroFramework.Controls.MetroLabel metroLabel4;
-        private MetroFramework.Controls.MetroTextBox txt_confPin;
-        private MetroFramework.Controls.MetroButton btn_comReg;
-        private MetroFramework.Controls.MetroRadioButton rbtn_dol;
+        private System.Windows.Forms.Panel pnl_registro;
         private MetroFramework.Controls.MetroRadioButton rbtn_cordoba;
+        private MetroFramework.Controls.MetroRadioButton rbtn_dol;
+        private MetroFramework.Controls.MetroButton btn_comReg;
+        private MetroFramework.Controls.MetroTextBox txt_confPin;
+        private MetroFramework.Controls.MetroLabel metroLabel4;
+        private MetroFramework.Controls.MetroTextBox txt_montoinicial;
+        private MetroFramework.Controls.MetroTextBox txt_pin;
+        private MetroFramework.Controls.MetroTextBox txt_nombre;
+        private MetroFramework.Controls.MetroLabel metroLabel3;
+        private MetroFramework.Controls.MetroLabel metroLabel2;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
     }
 }

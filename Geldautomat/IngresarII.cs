@@ -33,13 +33,62 @@ namespace Geldautomat
             {
                 if (datos.Nombre == txt_user.Text && datos.Pin == txt_loginpin.Text) {
                     MessageBox.Show("BIENVENIDO");
+                    Usuario.Visible = false;
+                    metroButton1.Visible = false;
+                    txt_loginpin.Visible = false;
+                    txt_user.Visible = false;
+                    Pin.Visible = false;
                     encontrado = true;
                     Ingresar ingre = new Ingresar();
                     ingre.TopLevel = false;
                     Controls.Add(ingre);
                     ingre.Show();
+
                 }
             }
+        }
+
+
+
+        private void txt_loginpin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_user_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Usuario_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void txt_loginpin_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_user_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Pin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Usuario_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

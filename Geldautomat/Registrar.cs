@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,21 +18,23 @@ namespace Geldautomat
             InitializeComponent();
         }
 
-        private void btn_comReg_Click(object sender, EventArgs e)
+        private void btn_comReg_Click_1(object sender, EventArgs e)
         {
             Usuario a = new Usuario();
-           // if ()
-            
-                if ((txt_pin.Text == txt_confPin.Text) && (txt_pin.Text.TrimStart().Length != 0 )&& (txt_confPin.Text.Length != 0))
-                {
+            // if ()
 
-                    a.Nombre = txt_nombre.Text;
-                    a.Montoi = txt_montoinicial.Text;
-                    a.Pin = txt_pin.Text;
+            if ((txt_pin.Text == txt_confPin.Text) && (txt_pin.Text.TrimStart().Length != 0) && (txt_confPin.Text.Length != 0))
+            {
+
+                a.Nombre = txt_nombre.Text;
+                a.Montoi = txt_montoinicial.Text;
+                a.Pin = txt_pin.Text;
                 Control_Usuarios.lista_Usuario.Add(a);
-                    MessageBox.Show("Se ha registrado");
-                }
-                
+                MessageBox.Show("Se ha registrado");
+                pnl_registro.Controls.Clear();
+
+            }
+
 
             //}
             else {
@@ -40,6 +43,22 @@ namespace Geldautomat
                 txt_pin.Clear();
                 txt_confPin.Clear();
             }
+
+
+        }
+
+        private void Registrar_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_montoinicial_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroLabel2_Click(object sender, EventArgs e)
+        {
 
         }
     }
