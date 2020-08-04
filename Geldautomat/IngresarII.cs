@@ -88,6 +88,9 @@ namespace Geldautomat
                     txt_loginpin.Visible = false;
                     txt_user.Visible = false;
                     Pin.Visible = false;
+                    pictureBox1.Visible = false;
+                    pictureBox2.Visible = false;
+                    pictureBox3.Visible = false;
                     encontrado = true;
                     Ingresar ingre = new Ingresar();
                     ingre.TopLevel = false;

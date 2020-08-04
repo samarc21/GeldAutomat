@@ -41,17 +41,16 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 76.75F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.375F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 81.625F));
             this.tableLayoutPanel1.Controls.Add(this.pnl_opciones, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.pnl_input_ingresar, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1067, 554);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 450);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // pnl_opciones
@@ -60,35 +59,37 @@
             this.pnl_opciones.Controls.Add(this.txt_retirar);
             this.pnl_opciones.Controls.Add(this.btn_ingresar);
             this.pnl_opciones.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_opciones.Location = new System.Drawing.Point(4, 4);
-            this.pnl_opciones.Margin = new System.Windows.Forms.Padding(4);
+            this.pnl_opciones.Location = new System.Drawing.Point(3, 3);
             this.pnl_opciones.Name = "pnl_opciones";
-            this.pnl_opciones.Size = new System.Drawing.Size(240, 546);
+            this.pnl_opciones.Size = new System.Drawing.Size(141, 444);
             this.pnl_opciones.TabIndex = 0;
             // 
             // txt_consultar
             // 
-            this.txt_consultar.Location = new System.Drawing.Point(60, 188);
+            this.txt_consultar.Location = new System.Drawing.Point(45, 153);
+            this.txt_consultar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_consultar.Name = "txt_consultar";
-            this.txt_consultar.Size = new System.Drawing.Size(91, 23);
+            this.txt_consultar.Size = new System.Drawing.Size(68, 19);
             this.txt_consultar.TabIndex = 5;
             this.txt_consultar.Text = "Consultar";
             this.txt_consultar.Click += new System.EventHandler(this.txt_consultar_Click);
             // 
             // txt_retirar
             // 
-            this.txt_retirar.Location = new System.Drawing.Point(60, 217);
+            this.txt_retirar.Location = new System.Drawing.Point(45, 176);
+            this.txt_retirar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_retirar.Name = "txt_retirar";
-            this.txt_retirar.Size = new System.Drawing.Size(91, 23);
+            this.txt_retirar.Size = new System.Drawing.Size(68, 19);
             this.txt_retirar.TabIndex = 4;
             this.txt_retirar.Text = "Retirar";
             this.txt_retirar.Click += new System.EventHandler(this.txt_retirar_Click);
             // 
             // btn_ingresar
             // 
-            this.btn_ingresar.Location = new System.Drawing.Point(60, 159);
+            this.btn_ingresar.Location = new System.Drawing.Point(45, 129);
+            this.btn_ingresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_ingresar.Name = "btn_ingresar";
-            this.btn_ingresar.Size = new System.Drawing.Size(91, 23);
+            this.btn_ingresar.Size = new System.Drawing.Size(68, 19);
             this.btn_ingresar.TabIndex = 3;
             this.btn_ingresar.Text = "Ingresar";
             this.btn_ingresar.Click += new System.EventHandler(this.btn_ingresar_Click_1);
@@ -96,20 +97,18 @@
             // pnl_input_ingresar
             // 
             this.pnl_input_ingresar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_input_ingresar.Location = new System.Drawing.Point(252, 4);
-            this.pnl_input_ingresar.Margin = new System.Windows.Forms.Padding(4);
+            this.pnl_input_ingresar.Location = new System.Drawing.Point(150, 3);
             this.pnl_input_ingresar.Name = "pnl_input_ingresar";
-            this.pnl_input_ingresar.Size = new System.Drawing.Size(811, 546);
+            this.pnl_input_ingresar.Size = new System.Drawing.Size(647, 444);
             this.pnl_input_ingresar.TabIndex = 1;
             // 
             // Ingresar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ingresar";
             this.Text = "Ingresar";
             this.tableLayoutPanel1.ResumeLayout(false);
