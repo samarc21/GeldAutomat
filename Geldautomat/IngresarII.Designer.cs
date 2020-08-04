@@ -28,61 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
-            this.txt_loginpin = new MetroFramework.Controls.MetroTextBox();
-            this.txt_user = new MetroFramework.Controls.MetroTextBox();
-            this.Pin = new MetroFramework.Controls.MetroLabel();
-            this.Usuario = new MetroFramework.Controls.MetroLabel();
+            this.txt_user = new System.Windows.Forms.TextBox();
+            this.txt_loginpin = new System.Windows.Forms.TextBox();
+            this.Usuario = new System.Windows.Forms.Label();
+            this.Pin = new System.Windows.Forms.Label();
+            this.btn_ingresarLog = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // metroButton1
-            // 
-            this.metroButton1.Location = new System.Drawing.Point(57, 266);
-            this.metroButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(187, 23);
-            this.metroButton1.TabIndex = 14;
-            this.metroButton1.Text = "Ingresar";
-            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
-            // 
-            // txt_loginpin
-            // 
-            this.txt_loginpin.Location = new System.Drawing.Point(136, 196);
-            this.txt_loginpin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txt_loginpin.Name = "txt_loginpin";
-            this.txt_loginpin.Size = new System.Drawing.Size(97, 23);
-            this.txt_loginpin.TabIndex = 13;
-            this.txt_loginpin.Click += new System.EventHandler(this.txt_loginpin_Click_1);
             // 
             // txt_user
             // 
-            this.txt_user.Location = new System.Drawing.Point(136, 160);
-            this.txt_user.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txt_user.Location = new System.Drawing.Point(251, 160);
             this.txt_user.Name = "txt_user";
-            this.txt_user.Size = new System.Drawing.Size(97, 23);
-            this.txt_user.TabIndex = 12;
-            this.txt_user.Click += new System.EventHandler(this.txt_user_Click_1);
+            this.txt_user.Size = new System.Drawing.Size(100, 22);
+            this.txt_user.TabIndex = 15;
             // 
-            // Pin
+            // txt_loginpin
             // 
-            this.Pin.AutoSize = true;
-            this.Pin.Location = new System.Drawing.Point(72, 196);
-            this.Pin.Name = "Pin";
-            this.Pin.Size = new System.Drawing.Size(28, 20);
-            this.Pin.TabIndex = 11;
-            this.Pin.Text = "Pin";
-            this.Pin.Click += new System.EventHandler(this.Pin_Click);
+            this.txt_loginpin.Location = new System.Drawing.Point(251, 194);
+            this.txt_loginpin.Name = "txt_loginpin";
+            this.txt_loginpin.Size = new System.Drawing.Size(100, 22);
+            this.txt_loginpin.TabIndex = 16;
             // 
             // Usuario
             // 
             this.Usuario.AutoSize = true;
-            this.Usuario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Usuario.Location = new System.Drawing.Point(57, 160);
+            this.Usuario.Location = new System.Drawing.Point(143, 163);
             this.Usuario.Name = "Usuario";
-            this.Usuario.Size = new System.Drawing.Size(56, 20);
-            this.Usuario.TabIndex = 10;
+            this.Usuario.Size = new System.Drawing.Size(57, 17);
+            this.Usuario.TabIndex = 17;
             this.Usuario.Text = "Usuario";
-            this.Usuario.Click += new System.EventHandler(this.Usuario_Click_1);
+            // 
+            // Pin
+            // 
+            this.Pin.AutoSize = true;
+            this.Pin.Location = new System.Drawing.Point(143, 199);
+            this.Pin.Name = "Pin";
+            this.Pin.Size = new System.Drawing.Size(28, 17);
+            this.Pin.TabIndex = 18;
+            this.Pin.Text = "Pin";
+            // 
+            // btn_ingresarLog
+            // 
+            this.btn_ingresarLog.Location = new System.Drawing.Point(225, 264);
+            this.btn_ingresarLog.Name = "btn_ingresarLog";
+            this.btn_ingresarLog.Size = new System.Drawing.Size(103, 35);
+            this.btn_ingresarLog.TabIndex = 19;
+            this.btn_ingresarLog.Text = "Ingresar";
+            this.btn_ingresarLog.UseVisualStyleBackColor = true;
+            this.btn_ingresarLog.Click += new System.EventHandler(this.btn_ingresarLog_Click);
             // 
             // IngresarII
             // 
@@ -90,13 +83,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.metroButton1);
-            this.Controls.Add(this.txt_loginpin);
-            this.Controls.Add(this.txt_user);
+            this.Controls.Add(this.btn_ingresarLog);
             this.Controls.Add(this.Pin);
             this.Controls.Add(this.Usuario);
+            this.Controls.Add(this.txt_loginpin);
+            this.Controls.Add(this.txt_user);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "IngresarII";
             this.Text = "IngresarII";
             this.Load += new System.EventHandler(this.IngresarII_Load);
@@ -106,11 +99,10 @@
         }
 
         #endregion
-
-        private MetroFramework.Controls.MetroButton metroButton1;
-        private MetroFramework.Controls.MetroTextBox txt_loginpin;
-        private MetroFramework.Controls.MetroTextBox txt_user;
-        private MetroFramework.Controls.MetroLabel Pin;
-        private MetroFramework.Controls.MetroLabel Usuario;
+        private System.Windows.Forms.TextBox txt_user;
+        private System.Windows.Forms.TextBox txt_loginpin;
+        private System.Windows.Forms.Label Usuario;
+        private System.Windows.Forms.Label Pin;
+        private System.Windows.Forms.Button btn_ingresarLog;
     }
 }

@@ -35,8 +35,8 @@
             this.btn_x = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.pnl_menu = new System.Windows.Forms.Panel();
-            this.btn_registrarse = new MetroFramework.Controls.MetroButton();
             this.btn_ingresar = new MetroFramework.Controls.MetroButton();
+            this.btn_registrarse = new MetroFramework.Controls.MetroButton();
             this.pnl_input = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.pnl_bienvenido.SuspendLayout();
@@ -121,36 +121,41 @@
             this.pnl_menu.Location = new System.Drawing.Point(4, 4);
             this.pnl_menu.Margin = new System.Windows.Forms.Padding(4);
             this.pnl_menu.Name = "pnl_menu";
-            this.pnl_menu.Size = new System.Drawing.Size(185, 505);
+            this.pnl_menu.Size = new System.Drawing.Size(184, 505);
             this.pnl_menu.TabIndex = 0;
-            // 
-            // btn_registrarse
-            // 
-            this.btn_registrarse.Location = new System.Drawing.Point(34, 253);
-            this.btn_registrarse.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_registrarse.Name = "btn_registrarse";
-            this.btn_registrarse.Size = new System.Drawing.Size(126, 35);
-            this.btn_registrarse.TabIndex = 3;
-            this.btn_registrarse.Text = "Registrar";
-            this.btn_registrarse.Click += new System.EventHandler(this.btn_registrarse_Click_1);
             // 
             // btn_ingresar
             // 
+            this.btn_ingresar.Highlight = true;
             this.btn_ingresar.Location = new System.Drawing.Point(34, 178);
             this.btn_ingresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_ingresar.Name = "btn_ingresar";
             this.btn_ingresar.Size = new System.Drawing.Size(126, 35);
+            this.btn_ingresar.Style = MetroFramework.MetroColorStyle.Yellow;
             this.btn_ingresar.TabIndex = 2;
             this.btn_ingresar.Text = "Iniciar sesión";
+            this.btn_ingresar.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.btn_ingresar.Click += new System.EventHandler(this.btn_ingresar_Click_1);
+            // 
+            // btn_registrarse
+            // 
+            this.btn_registrarse.Highlight = true;
+            this.btn_registrarse.Location = new System.Drawing.Point(34, 253);
+            this.btn_registrarse.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_registrarse.Name = "btn_registrarse";
+            this.btn_registrarse.Size = new System.Drawing.Size(126, 35);
+            this.btn_registrarse.Style = MetroFramework.MetroColorStyle.Orange;
+            this.btn_registrarse.TabIndex = 3;
+            this.btn_registrarse.Text = "Registrar";
+            this.btn_registrarse.Click += new System.EventHandler(this.btn_registrarse_Click_1);
             // 
             // pnl_input
             // 
             this.pnl_input.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_input.Location = new System.Drawing.Point(197, 4);
+            this.pnl_input.Location = new System.Drawing.Point(196, 4);
             this.pnl_input.Margin = new System.Windows.Forms.Padding(4);
             this.pnl_input.Name = "pnl_input";
-            this.pnl_input.Size = new System.Drawing.Size(1041, 505);
+            this.pnl_input.Size = new System.Drawing.Size(1042, 505);
             this.pnl_input.TabIndex = 1;
             // 
             // Dashboard
